@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption&Decryption</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
+    <script type="module">
+        import solverjs from 'https://cdn.skypack.dev/solverjs';
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login_user">
+            <span id="user">Login User: Guest</span>
+        </div>
+        <div class="switch">
+            <h1>Encrypt & Decrypt Text Online</h1>
+            <p class="decor">Protect your text by Encrypting and Decrypting any given text with a key that no one knows.</p>
+            <div class="switch_container">
+                <div class="switch_buttons">
+                    <button id="enc">Encryption</button>
+                    <button id="dnc">Decryption</button>
+                </div>
+            </div>
+            <div class="first">
+                <div class="text">
+                    <h1>Encryption</h1>
+                    <p class="decor">Text to Encrypt</p>
+                    <textarea class="fix_size" name="text" id="encryption" cols="70" rows="10"></textarea><br>
+                    <button class="btn" id="encrypt">Encrypt</button>
+                </div>
+                <div class="copy">
+                    <p class="decor">Encrypted Text</p>
+                    <textarea class="fix_size" name="text" id="decryption" cols="70" rows="10" disabled></textarea><br>
+                    <button class="btn" id="btn_enc">Copy text</button>
+                </div>
+            </div>
+            <div class="second">
+                <div class="text">
+                    <h1>Decryption</h1>
+                    <p class="decor">Encrypted Text</p>
+                    <textarea class="fix_size" name="text" id="decryption_dec_input" cols="70" rows="10" ></textarea><br>
+                    <button class="btn" id="paste">Paste text</button>
+                    <button class="btn" id="dnc_btn">Decrypt</button>
+                </div>
+                <div class="copy">
+                    <p class="decor">Decrypted Text</p>
+                    <textarea class="fix_size" name="text" id="decryption_dec" cols="70" rows="10" disabled></textarea><br>
+                    <button class="btn" id="btn_dnc">Copy text</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span id="popup"></span>
+</body>
+
+</html>
