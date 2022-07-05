@@ -6,8 +6,8 @@ const dnc = document.getElementById('dnc');
 const enc_box = document.getElementsByClassName('first')[0];
 const dnc_box = document.getElementsByClassName('second')[0];
 
-let username = prompt("Enter your name");
-document.getElementById('user').innerText = username === '' ? "Login User: Guest" : ("Login User: " + username);
+// let username = prompt("Enter your name");
+// document.getElementById('user').innerText = username === '' ? "Login User: Guest" : ("Login User: " + username);
 
 switchs(true);
 

@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Encryption&Decryption</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="./index.js"></script>
     <script type="module">
         import solverjs from 'https://cdn.skypack.dev/solverjs';
     </script>
+    <style>
+        .contact{
+            display: flex;
+            flex-direction: column;
+        }
+        .contact ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+        }
+        .contact ul li{
+            margin-right: 20px;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .contact ul li a{
+            color: rgb(0, 187, 255);
+        }
+        .contact ul li a:hover{
+            color: rgb(30, 136, 174);
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <div class="login_user">
             <span id="user">Login User: Guest</span>
+        </div>
+        <div class="contact">
+            <ul class="socila_links">
+                <li><a href="https://www.facebook.com/sachin.dwivedi.73594" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/sachin_dwivedi_17/" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/sachind15096977" target="_blank"><i class="fa fa-twitter"
+                            aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/sachin-kumar-dwivedi-6a3230230/" target="_blank"><i
+                            class="fa fa-linkedin w3-hover-opacity"></i></a></li>
+                <li><a href="https://github.com/sachindwi17" target="_blank"><i
+                            class="fa fa-github w3-hover-opacity"></i></a></li>
+            </ul>
         </div>
         <div class="switch">
             <h1>Encrypt & Decrypt Text Online</h1>
