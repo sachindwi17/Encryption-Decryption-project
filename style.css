@@ -1,4 +1,5 @@
-* {
+@media screen and (orientation:landscape){
+*{
   margin: 0%;
   padding: 0%;
   outline: none;
@@ -105,4 +106,168 @@ textarea {
   padding: 5px 20px;
   border-radius: 50px;
   display: none;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+}
+.contact ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.contact ul li{
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.contact ul li a{
+  color: rgb(0, 187, 255);
+}
+.contact ul li a:hover{
+  color: rgb(30, 136, 174);
+}
+}
+@media screen and (orientation:portrait){
+  *{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+  
+    font-family: system-ui;
+    font-weight: 400;
+  }
+  
+  :root {
+    --green: #90f542;
+    --red: #f54646;
+  }
+  
+  .decor {
+    font-weight: 100!important;
+    font-size: 15px!important;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+  }
+  .container h1 {
+    color: rgb(43, 165, 236);
+    font-size: 20px;
+    margin: 10px;
+  }
+  .container p {
+    font-weight: bold;
+    margin: 10px;
+    font-size: 13px;
+  }
+  .btn {
+    margin: 5px;
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(118, 183, 236);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+  }
+  .btn:hover {
+    background-color: rgb(65, 162, 218);
+  }
+  
+  .fix_size {
+    resize: none;
+    font-size: 13px;
+    overflow: auto;
+    height: 170px;
+    width: 280px;
+  }
+  
+  .switch_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .switch_buttons {
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 45px;
+    width: 200px;
+  }
+  
+  .switch_buttons button {
+    padding: 5px;
+    font-size: 15px;
+    margin: 0.3rem;
+    cursor: pointer;
+  
+    border-radius: 30px;
+    color: rgb(65, 162, 218);
+    border: 2px solid black;
+    background: none;
+  
+    transition: all 0.5s ease;
+  }
+  
+  .login_user {
+    background: black;
+    color: white;
+    padding: 3px;
+    font-family: system-ui;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-overflow: ellipsis;
+  }
+  #user{
+    font-size: 12px;
+  }
+  
+  textarea {
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+  
+  #popup {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #000000;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    display: none;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact ul{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 5px;
+    /* align-items: center;
+    justify-content: center; */
+    list-style: none;
+}
+.contact ul li{
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.contact ul li a{
+    color: rgb(0, 187, 255);
+}
+.contact ul li a:hover{
+    color: rgb(30, 136, 174);
+}
 }
